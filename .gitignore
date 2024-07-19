@@ -2,3 +2,4 @@
 allure-results
 settings.xml
 target
+src/test/resources/configConstants.properties
