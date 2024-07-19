@@ -1,0 +1,13 @@
+elements:
+  macOS:
+    en_US:
+      web: //button/span[text()='macOS']
+  VPN:
+    en_US:
+      web: //span[text()='VPN']
+  profileName:
+    en_US:
+      web: //input[@name='name']
+  confirmButton:
+    en_US:
+      web: //button[normalize-space()='Confirm']

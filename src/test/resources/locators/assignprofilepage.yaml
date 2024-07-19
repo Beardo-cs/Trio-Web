@@ -1,0 +1,4 @@
+elements:
+  AssignDepartments:
+    en_US:
+      web: //span[normalize-space()='Assign to Departments']

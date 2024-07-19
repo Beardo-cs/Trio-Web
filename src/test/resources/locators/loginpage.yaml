@@ -1,0 +1,10 @@
+elements:
+  email:
+    en_US:
+      web: //input[@name='email']
+  password:
+    en_US:
+      web: //input[@name='password']
+  signInButton:
+    en_US:
+      web: //*[normalize-space()='Sign in']

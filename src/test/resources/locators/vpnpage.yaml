@@ -1,0 +1,23 @@
+elements:
+  connectionName:
+    en_US:
+      web: //input[@placeholder='Connection name']
+  server:
+    en_US:
+      web: //input[@placeholder='Server']
+  account:
+    en_US:
+      web: //input[@placeholder='Account']
+  sharedSecret:
+    en_US:
+      web: //input[@placeholder='Shared secret']
+  createButton:
+    en_US:
+      web: //button[normalize-space()='Create']
+  profileCreatedPopup:
+    en_US:
+      web: //span[normalize-space()='Profile has been created!']
+  assignButton:
+    en_US:
+      web: //button[normalize-space()='Assign']
+

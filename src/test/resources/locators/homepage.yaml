@@ -1,0 +1,25 @@
+elements:
+  hamburgerIcon:
+    en_US:
+      web: //*[@id="hamburger"]
+  profiles:
+    en_US:
+      web: //*[text()='Profiles']
+  configurationProfiles:
+    en_US:
+      web: //div[contains(text(),'Configuration Profiles')]
+  createNew:
+    en_US:
+      web: //button[normalize-space()='Create new']
+  noProfiles:
+    en_US:
+      web: //span[text()="You don’t have any profiles yet"]
+  NoProfilesCreateNew:
+    en_US:
+      web: //span[text()="Create First Profile"]
+  TrailPopUP:
+    en_US:
+      web: //span[normalize-space()='Your trial is almost over...']
+  ContinueTrail:
+    en_US:
+      web: //button[normalize-space()='Continue with the trial']

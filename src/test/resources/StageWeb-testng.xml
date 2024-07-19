@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="BOOKSTORE TEST" annotations="JDK">
+  <parameter name="videoEnable" value="false"/>
+  <parameter name="pagesPackage" value="com.qapitol.sample.web.stepdefinition"/>
+  <test name="sauron 4 web testcases">
+    <parameter name="sessions" value="sessions.yaml"/>
+    <parameter name="executionTimeout" value="10000"/>
+    <classes>
+      <class name="com.trio.assignment.web.TrioWebTest"/>
+    </classes>
+  </test>
+</suite>
